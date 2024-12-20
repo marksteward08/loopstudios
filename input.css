@@ -62,3 +62,7 @@
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translateX(-6px)
 }
+
+.image-item {
+    @apply size-full object-cover object-top duration-200 group-hover:scale-110;
+}
