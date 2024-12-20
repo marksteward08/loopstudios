@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TW Proj 2</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Menu -->
+    <section class="duration-200">
+        <div id="menu" class="hidden z-10 fixed top-0 w-screen h-screen bg-black">
+            <div class="p-12 flex flex-col gap-3">
+                <p class="text-white text-2xl font-bold">About</p>
+                <p class="text-white text-2xl font-bold">Careers</p>
+                <p class="text-white text-2xl font-bold">Events</p>
+                <p class="text-white text-2xl font-bold">Products</p>
+                <p class="text-white text-2xl font-bold">Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="banner mx-auto mb-5 pt-8">
+            <div class="group duration-200">
+                <div class="section-container flex justify-between">
+                    <p class="font-valera-round text-white text-2xl font-bold">loopstudios</p>
+                    <div class="hidden md:flex gap-4">
+                        <p class="text-white font-bold">About</p>
+                        <p class="text-white font-bold">Careers</p>
+                        <p class="text-white font-bold">Events</p>
+                        <p class="text-white font-bold">Products</p>
+                        <p class="text-white font-bold">Support</p>
+                    </div>
+                    <button id="dropdown" class="md:hidden z-40 block focus:outline-none hamburger">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="section-container flex py-24">
+                <div class="p-6 border text-white mx-auto md:mx-0">
+                    <h1 class="text-center md:text-left">IMPRESSIVE<br>EXPERIENCES<br>THAT DELIVER</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Snippet -->
+    <section id="snippet">
+        <div class="section-container mt-16 static md:relative ">
+            <img src="./images/desktop/image-interactive.jpg" alt="" class="">
+            <div class="bg-white static text-center pt-10 bottom-0 right-0 max-w-2xl md:absolute md:p-16">
+                <h1>THE LEADER IN<br>INTERACTIVE VR</h1>
+                <p class="pt-3 max-w-lg mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores quis, cum sed atque vero! Totam ipsum earum itaque nobis voluptatum suscipit nisi labore doloremque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto nobis eum laborum obcaecati enim quia in quos, veritatis </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compilations -->
+    <section id="creations">
+        <div class="section-container mt-16 static md:relative ">
+            <div class="flex flex-col justify-between items-center md:flex-row">
+                <h1>OUR CREATIONS</h1>
+                <div class="p-3 border-2 border-black text-sm duration-200 mt-2 md:mt-0 hover:bg-black hover:text-white hover:px-7 hover:tracking-widest">SEE ALL</div>
+            </div>
+            <!-- item container -->
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-5">
+                <!-- item -->
+                <div class="group bg-red-300 h-[12rem]  md:h-[28rem] overflow-hidden relative">
+                    <div class="absolute flex items-end w-full h-full z-10 bg-gradient-to-t from-slate-900 p-6">
+                        <div class="text-3xl text-white">DEEP <br> EARTH</div>
+                    </div>
+                    <img src="./images/desktop/image-deep-earth.jpg" alt="" class="size-full object-cover duration-200 group-hover:scale-110">
+                </div>
+                
+                <div class="group bg-red-300  h-[12rem]  md:h-[28rem] overflow-hidden relative">
+                    <div class="absolute flex items-end w-full h-full z-10 bg-gradient-to-t from-slate-900 p-6">
+                        <div class="text-3xl text-white">NIGHT <br> ARCADE</div>
+                    </div>
+                    <img src="./images/desktop/image-night-arcade.jpg" alt="" class="size-full object-cover duration-200 group-hover:scale-110">
+                </div>
+
+                <div class="group bg-red-300  h-[12rem]  md:h-[28rem] overflow-hidden relative">
+                    <div class="absolute flex items-end w-full h-full z-10 bg-gradient-to-t from-slate-900 p-6">
+                        <div class="text-3xl text-white">SOCKER <br> TEAM VR</div>
+                    </div>
+                    <img src="./images/desktop/image-soccer-team.jpg" alt="" class="size-full object-cover duration-200 group-hover:scale-110">
+                </div>
+
+                <div class="group bg-red-300  h-[12rem]  md:h-[28rem] overflow-hidden relative">
+                    <div class="absolute flex items-end w-full h-full z-10 bg-gradient-to-t from-slate-900 p-6">
+                        <div class="text-3xl text-white">THE GRID</div>
+                    </div>
+                    <img src="./images/desktop/image-grid.jpg" alt="" class="size-full object-cover duration-200 group-hover:scale-110">
+                </div>
+
+                <div class="group bg-red-300  h-[12rem]  md:h-[28rem] overflow-hidden relative">
+                    <div class="absolute flex items-end w-full h-full z-10 bg-gradient-to-t from-slate-900 p-6">
+                        <div class="text-3xl text-white">FROM UP <br> ABOVE VR</div>
+                    </div>
+                    <img src="./images/desktop/image-from-above.jpg" alt="" class="size-full object-cover duration-200 group-hover:scale-110">
+                </div>
+
+                <div class="group bg-red-300  h-[12rem]  md:h-[28rem] overflow-hidden relative">
+                    <div class="absolute flex items-end w-full h-full z-10 bg-gradient-to-t from-slate-900 p-6">
+                        <div class="text-3xl text-white">POCKET <br> BOREALIS</div>
+                    </div>
+                    <img src="./images/desktop/image-pocket-borealis.jpg" alt="" class="size-full object-cover duration-200 group-hover:scale-110">
+                </div>
+
+                <div class="group bg-red-300  h-[12rem]  md:h-[28rem] overflow-hidden relative">
+                    <div class="absolute flex items-end w-full h-full z-10 bg-gradient-to-t from-slate-900 p-6">
+                        <div class="text-3xl text-white">THE <br> CURIOSITY</div>
+                    </div>
+                    <img src="./images/desktop/image-curiosity.jpg" alt="" class="size-full object-cover duration-200 group-hover:scale-110">
+                </div>
+
+                <div class="group bg-red-300  h-[12rem]  md:h-[28rem] overflow-hidden relative">
+                    <div class="absolute flex items-end w-full h-full z-10 bg-gradient-to-t from-slate-900 p-6">
+                        <div class="text-3xl text-white">MAKE IT <br> FISHEYE</div>
+                    </div>
+                    <img src="./images/desktop/image-fisheye.jpg" alt="" class="size-full object-cover duration-200 group-hover:scale-110">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="bg-slate-950 mt-16">
+            <div class="section-container py-5 flex flex-col gap-4 md:flex-row justify-center md:justify-between">
+                <div class="flex flex-col items-center md:items-start gap-4">
+                    <p class="font-valera-round text-white text-2xl font-bold">loopstudios</p>
+                    <div class="flex gap-3 flex-col text-center md:flex-row">
+                        <p class="text-white font-bold">About</p>
+                        <p class="text-white font-bold">Careers</p>
+                        <p class="text-white font-bold">Events</p>
+                        <p class="text-white font-bold">Products</p>
+                        <p class="text-white font-bold">Support</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center md:items-start gap-4">
+                    <div class="flex justify-center gap-4 w-full md:justify-end">
+                        <img src="./images/icon-facebook.svg" alt="">
+                        <img src="./images/icon-instagram.svg" alt="">
+                        <img src="./images/icon-facebook.svg" alt="">
+                        <img src="./images/icon-twitter.svg" alt="">
+                    </div>
+                    <p class="text-slate-400">All rights reserved 2024. Loopstudios Inc.</p>
+                    <div class="flex"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
