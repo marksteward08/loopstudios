@@ -15,7 +15,7 @@
 .banner {
     background-image: url('./images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 .hamburger {
